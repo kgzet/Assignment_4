@@ -1,12 +1,12 @@
 # Assignment_4
 ### Personal data:
-Kinga Zajdel
+    Kinga Zajdel
 ### Exercises:
-4; 20th March 2024
+    4; 20th March 2024
 ### Course:
-Advanced Toolkit for Bioinformatics Research
+    Advanced Toolkit for Bioinformatics Research
 ### AI usage:
-none
+    none
 
 ---------------------------------------------------------------------------------
 
@@ -38,7 +38,7 @@ none
 * repository
   - final version ready to go remote
 To move files from first to second, we use git add. From second to third git commit. Finally git push to move from local to remote repository.
-#### Branches
+#### Branches:
 * we can create new branch for side modifications of the code without disturbing previously prepared application
 * the new branch can be deleted if we don't like the modification
 * cooperation of the new and the old code can be checked without disturbing the main branch
