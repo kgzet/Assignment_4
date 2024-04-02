@@ -14,7 +14,7 @@ none
 
 ### Commands:
 * git clone + link = create local directory and copy the linked repository with remote-tracking branches; it is obligaatory to do this for the first time to copy the remote repository - next time git pull will be needed
-* git pull 'remote_name' 'branch_name' = git fetch (fetches content from a remote repository) + git merge (merges the branch from a remote to a local branch = update the local repository to match remote content) where 'remote_name' is name of the repository and 'branch_name' is the name of the specific branch in that repositiry
+* git pull 'remote_name' 'branch_name' = git fetch (fetches content from a remote repository) + git merge (merges the branch from a remote to a local branch = update the local repository to match remote content) where 'remote_name' is name of the repository and 'branch_name' is the name of the specific branch in that repository
 * git fetch = download from remote, but without merging with local
 * git add "file.py" = add file to staging area, next step is commit (file is still only in our local repository)
 * git add . = all files in local directory moved to staging area
@@ -32,8 +32,11 @@ none
 ### Other things:
 #### There are three Phases of Git
 * working directory
+  - here are edited files
 * staging area
+  - prepared to commit
 * repository
+  - final version ready to go remote
 To move files from first to second, we use git add. From second to third git commit. Finally git push to move from local to remote repository.
 #### Branches
 * we can create new branch for side modifications of the code without disturbing previously prepared application
@@ -42,7 +45,7 @@ To move files from first to second, we use git add. From second to third git com
 * when working on many branches, some conflicts may occur - in more than one branch we may modify independently the same line of code
 * such conflicts are solved manually by the user - we have to choose which version of code we want to keep
 #### Most popular:
-* GitHub
-* GitLab
-* BitBucket
+1. GitHub
+2. GitLab
+3. BitBucket
 
