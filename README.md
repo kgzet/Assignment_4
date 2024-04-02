@@ -19,7 +19,7 @@ none
 * git add "file.py" = add file to staging area, next step is commit (file is still only in our local repository)
 * git add . = all files in local directory moved to staging area
 * git add -u = as above but only changed files
-* git commit -m "description" = all files moved from staging area to localrepo
+* git commit -m "description" = all files moved from staging area to localrepo with additional information put as a description (can be helpful to quickly find out what is this commit about)
 * git commit -a = git add and git commit
 * git push origin main = send files from localrepo to the remote repo (branch main)
 * git checkout = change the branch
