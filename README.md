@@ -49,3 +49,4 @@ To move files from first to second, we use git add. From second to third git com
 2. GitLab
 3. BitBucket
 
+*No AI used.*
